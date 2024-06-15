@@ -24,10 +24,10 @@ const SecondBlock = () => {
         <img src={partyIcon} alt="Icono Fiesta" />
 
         <h2>Día</h2>
-        <p className='parrafo'>de Viernes 16 de Agosto - 21 hs</p>
-        <p className='parrafo'>hasta Sábado 17 de Agosto - 5hs</p>
+        <p className='parrafo'>Viernes 16 de Agosto</p>
+        <p className='parrafo'>21:00 pm a 5:00 am</p>
         <div className="linkBox">
-  <a href="https://calendar.google.com/calendar/u/0/r/eventedit?text=Evento+especial&dates=20240816T230000Z/20240817T090000Z&details=Descripci%C3%B3n+del+evento&location=Lugar+del+evento&ctz=America/Argentina/Buenos_Aires" target="_blank" rel="noopener noreferrer">Agenda el día</a>
+  <a href="https://calendar.app.google/dK3NR5qKwitCKhDW8" target="_blank" rel="noopener noreferrer">Agenda el día</a>
 </div>
 
         <img src={locationIcon} alt="Icono Ubicación" />
