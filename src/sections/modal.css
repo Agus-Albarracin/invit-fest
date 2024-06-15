@@ -1,0 +1,73 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modalContent {
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .closeButton {
+    background: #8c4545;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .linkBoxMP{
+    padding: 10px; /* Padding para hacer la caja más visible */
+    margin: 20px 50px; /* Margen externo para separar las cajas */
+    width: 80%; /* Ajusta el ancho de la caja */
+    max-width: 190px; /* Ancho máximo de la caja */
+    display: flex;
+    justify-content: center; /* Centra el contenido dentro de la caja */
+    align-items: center;
+    background-color: #409497;
+    border-radius: 10px;
+    border: 2px solid #dba34f;
+  }  
+  
+  .linkBoxMP a {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .linkBoxMP a:hover {
+    text-decoration: underline;
+  }
+  
+  .copyContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .copyButton {
+    background: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .copyButton:hover {
+    background: #45a049;
+  }
+  

@@ -1,0 +1,70 @@
+.section1 {
+    background-color: #B8A791;
+    /* background-color: black; */
+    min-height: 100vh; /* Ajusta la altura según el contenido */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  margin-bottom: -20px;
+
+  }
+  
+  .topButton {
+    position: absolute;
+    top: 20px; /* Ajusta la posición superior para subir el botón */
+    left: 125px; /* Ajusta la posición izquierda según sea necesario */
+    z-index: 10; /* Asegura que esté por encima del contenido */
+    cursor: pointer;
+  }
+  
+  .topButton img {
+    width: 30px; /* Ajusta el tamaño de la imagen según sea necesario */
+    margin-right: 5px; /* Espacio entre la imagen y el texto */
+  }
+  
+  .topButton span {
+    color: #ffffff;
+    font-size: 20px; /* Ajusta el tamaño del texto según sea necesario */
+    text-align: center; /* Alinea el texto al centro */
+    position: relative;
+    top: -6px; /* Ajusta la posición superior para subir el texto */
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    max-width: 80%; /* Limita el ancho máximo del contenido */
+    padding: 0 20px; /* Padding en los lados para dispositivos más pequeños */
+  }
+  
+  .letras {
+    display: flex;
+    justify-content: center;
+    max-width: 100%; /* Ajusta el ancho máximo */
+  }
+  
+  .spejos {
+    display: flex;
+    justify-content: center;
+    max-width: 100%; /* Ajusta el ancho máximo */
+  }
+  
+  .frasegif {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .arrow {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+

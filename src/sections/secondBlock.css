@@ -1,0 +1,146 @@
+
+.SecondBlock {
+  background-color: #B8A791;
+  /* background-color: black;  */
+  min-height: 100vh; /* Ajusta la altura según el contenido */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px; /* Padding adicional para centrar mejor el contenido */
+  margin-top: -20px;
+}
+
+
+.divtitle {
+  background-image: url("../assets/frasesecondblock.png");
+  background-size: contain; /* Ajusta la imagen para que quepa completamente */
+  background-position: center;
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  margin-bottom: 100px;
+  height: 300px;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+
+.titlep {
+  color: #aa803f;
+  font-family: "Playwrite FR Moderne", cursive;
+  font-size: 30px;
+  text-align: center; /* Centra el texto dentro del párrafo */
+  line-height: 1.7;
+}
+
+.parrafo{
+  color: #a6690e;
+  font-family: "Playwrite FR Moderne", cursive;
+  font-size: 15px;
+}
+
+.SecondBlock p {
+  font-family: "Playwrite FR Moderne", cursive;
+  margin: 5px 0; /* Margen para los párrafos */
+}
+
+.SecondBlock h2 {
+  color: #5F5F5F;
+  font-family: "Playwrite FR Moderne", cursive;
+  margin: 2px 0;
+}
+
+.SecondBlock a {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.SecondBlock img {
+  margin: 10px 0; /* Ajusta el margen para las imágenes */
+  width: 200px; /* Ajusta el tamaño de la imagen según sea necesario */
+}
+
+.linkBox {
+  background-image: url("../assets/cajalink.png"); /* Imagen de fondo */
+  background-size: contain; /* Ajusta la imagen para que quepa completamente */
+  background-position: center;
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  padding: 40px; /* Padding para hacer la caja más visible */
+  margin: 20px 50px; /* Margen externo para separar las cajas */
+  width: 80%; /* Ajusta el ancho de la caja */
+  max-width: 190px; /* Ancho máximo de la caja */
+  display: flex;
+  justify-content: center; /* Centra el contenido dentro de la caja */
+  align-items: center;
+}
+
+.linkBox a {
+  color: #a6690e; /* Color del enlace */
+  text-decoration: none; /* Quita el subrayado del enlace */
+  display: block; /* Asegura que el enlace ocupe una nueva línea */
+  text-align: center; /* Centra el texto dentro del enlace */
+}
+
+.linkBox a:hover {
+  text-decoration: underline; /* Subraya el enlace al pasar el ratón por encima */
+}
+
+.linkBoxMusic{
+  padding: 10px; /* Padding para hacer la caja más visible */
+  margin: 20px 50px; /* Margen externo para separar las cajas */
+  width: 80%; /* Ajusta el ancho de la caja */
+  max-width: 190px; /* Ancho máximo de la caja */
+  display: flex;
+  justify-content: center; /* Centra el contenido dentro de la caja */
+  align-items: center;
+  background-color: #a6690e4a;
+  border-radius: 10px;
+  border: 1px solid #aa803f;
+}
+
+
+.linkBoxMusic a {
+  color: #5F5F5F; /* Color del enlace */
+  text-decoration: none; /* Quita el subrayado del enlace */
+  display: block; /* Asegura que el enlace ocupe una nueva línea */
+  text-align: center; /* Centra el texto dentro del enlace */
+}
+
+.linkBoxMusic a:hover {
+  text-decoration: underline; /* Subraya el enlace al pasar el ratón por encima */
+}
+
+
+.musicContainer {
+  background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco transparente */
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px; /* Margen superior para separar de los elementos anteriores */
+  width: 80%; /* Ajusta el ancho del contenedor */
+  max-width: 300px; /* Ancho máximo del contenedor */
+  text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+.musicContainer img {
+  width: 30px; /* Ajusta el tamaño del icono */
+  margin: 10px 0; /* Margen para el icono */
+}
+
+.regalosContainer {
+  background-color: rgba(255, 255, 255, 0.5); /* Fondo blanco transparente */
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px; /* Margen superior para separar de los elementos anteriores */
+  width: 80%; /* Ajusta el ancho del contenedor */
+  max-width: 300px; /* Ancho máximo del contenedor */
+  text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+.regalosContainer img {
+  width: 200px; /* Ajusta el tamaño del icono */
+  margin: 10px 0; /* Margen para el icono */
+}
+
+.btn-regalo {
+  background-color: #b8a79100;
+  color: #5F5F5F;
+}
