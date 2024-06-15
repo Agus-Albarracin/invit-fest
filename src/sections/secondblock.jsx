@@ -49,7 +49,7 @@ const SecondBlock = () => {
         <img src={musicIcon} alt="Icono Musica" />
         <p className='parrafo'>¿Qué canción te gustaría</p><p className='parrafo'> escuchar en la fiesta?</p>
         <div className="linkBoxMusic">
-          <a href="https://wa.me/+5a1164654712" target="_blank" rel="noopener noreferrer">Sugerir canción</a>
+          <a href="https://wa.me/+541164654712" target="_blank" rel="noopener noreferrer">Sugerir canción</a>
         </div>
       </div>
 
