@@ -13,7 +13,7 @@
   
   .topButton {
     position: absolute;
-    top: 20px; /* Ajusta la posición superior para subir el botón */
+    top: 300px; /* Ajusta la posición superior para subir el botón */
     left: 125px; /* Ajusta la posición izquierda según sea necesario */
     z-index: 10; /* Asegura que esté por encima del contenido */
     cursor: pointer;
@@ -26,7 +26,7 @@
   
   .topButton span {
     color: #ffffff;
-    font-size: 20px; /* Ajusta el tamaño del texto según sea necesario */
+    font-size: 25px; /* Ajusta el tamaño del texto según sea necesario */
     text-align: center; /* Alinea el texto al centro */
     position: relative;
     top: -6px; /* Ajusta la posición superior para subir el texto */
@@ -49,6 +49,7 @@
   }
   
   .spejos {
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     max-width: 100%; /* Ajusta el ancho máximo */
