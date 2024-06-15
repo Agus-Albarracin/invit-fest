@@ -40,7 +40,7 @@ const SecondBlock = () => {
         <h2>Confirmación</h2>
         <p className='parrafo'>Por favor confirmar asistencia antes</p><p className='parrafo'> del 20 de Julio.</p>
         <div className="linkBox">
-          <a href="https://wa.me/1134055260" target="_blank" rel="noopener noreferrer">Confirmar asistencia</a>
+          <a href="https://wa.me/+541134055260" target="_blank" rel="noopener noreferrer">Confirmar asistencia</a>
         </div>
       </div>
 
@@ -49,7 +49,7 @@ const SecondBlock = () => {
         <img src={musicIcon} alt="Icono Musica" />
         <p className='parrafo'>¿Qué canción te gustaría</p><p className='parrafo'> escuchar en la fiesta?</p>
         <div className="linkBoxMusic">
-          <a href="https://wa.me/1164654712" target="_blank" rel="noopener noreferrer">Sugerir canción</a>
+          <a href="https://wa.me/+5a1164654712" target="_blank" rel="noopener noreferrer">Sugerir canción</a>
         </div>
       </div>
 
