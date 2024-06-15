@@ -24,7 +24,8 @@ const SecondBlock = () => {
         <img src={partyIcon} alt="Icono Fiesta" />
 
         <h2>Día</h2>
-        <p className='parrafo'>Viernes 16 de Agosto</p>
+        <p className='parrafo'>de Viernes 16 de Agosto - 21 hs</p>
+        <p className='parrafo'>hasta Sábado 17 de Agosto - 5hs</p>
         <div className="linkBox">
           <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Evento+especial&dates=20240816T230000Z/20240817T090000Z&details=Descripción+del+evento&location=Lugar+del+evento&ctz=America/Argentina/Buenos_Aires" target="_blank" rel="noopener noreferrer">Agenda el día</a>
         </div>
