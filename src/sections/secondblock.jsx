@@ -27,8 +27,8 @@ const SecondBlock = () => {
         <p className='parrafo'>Viernes 16 de Agosto</p>
         <p className='parrafo'>21:00 pm a 5:00 am</p>
         <div className="linkBox">
-  <a href="https://calendar.app.google/dK3NR5qKwitCKhDW8" target="_blank" rel="noopener noreferrer">Agenda el día</a>
-</div>
+          <a href="https://calendar.app.google/3GZrL7spk5L7aMQw8" target="_blank" rel="noopener noreferrer">Agenda el día</a>
+        </div>
 
         <img src={locationIcon} alt="Icono Ubicación" />
         <h2>Lugar</h2>
