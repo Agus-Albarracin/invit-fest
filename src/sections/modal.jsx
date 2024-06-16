@@ -7,8 +7,8 @@ import toastfoto from "../assets/fototoast.png"
 Modal.setAppElement('#root'); // This is important for screen readers
 
 const RegaloModal = ({ isOpen, onRequestClose }) => {
-  const cvu = "0140162803514450473312";
-  const alias = "marie.alba";
+  const cvu = "0000003100004365130318";
+  const alias = "juli.ro.mp";
 
   const copyToClipboard = (text, label) => {
     navigator.clipboard.writeText(text).then(() => {
