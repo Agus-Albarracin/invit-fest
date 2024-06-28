@@ -44,7 +44,7 @@ const Firstblock = () => {
     <div className="section1">
       <div className="topButton" onClick={handleTogglePlay}>
         <img src={isPlaying ? pauseIcon : playIcon} alt="Play/Pause" />
-        <span>{isPlaying ? 'Pausa' : 'Dale play'}</span>
+        <span>{isPlaying ? 'Pausa' : 'Play music'}</span>
       </div>
 
       <YouTube videoId="hvqc8lPmCfU" opts={opts} onReady={onReady} />
