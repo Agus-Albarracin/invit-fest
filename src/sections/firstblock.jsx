@@ -44,13 +44,16 @@ const Firstblock = () => {
     <div className="section1">
       <div className="topButton" onClick={handleTogglePlay}>
         <img src={isPlaying ? pauseIcon : playIcon} alt="Play/Pause" />
-        <span>{isPlaying ? 'Pausa' : 'Dale play'}</span>
+        <span>{isPlaying ? 'Pausa' : 'Play music'}</span>
       </div>
 
       <YouTube videoId="hvqc8lPmCfU" opts={opts} onReady={onReady} />
 
       <div className='content'>
         <img className="letras" src={letras} alt="Letras" />
+
+        <img className='arrow-two' src={arrow} alt="Flecha" />
+
         <img className="spejos" src={espejo} alt="Espejo" />
         <img className='frasegif' src={frasegif} alt="Frase GIF" />
       </div>

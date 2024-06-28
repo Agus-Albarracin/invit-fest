@@ -4,6 +4,7 @@ import locationIcon from "../assets/location.png";
 import confirmIcon from "../assets/confirm.png";
 import musicIcon from "../assets/music.svg";
 import regaloIcon from "../assets/regalo.gif";
+import camaraIcon from "../assets/camara.gif"
 import RegaloModal from './modal';
 
 import "./secondBlock.css";
@@ -50,7 +51,7 @@ const SecondBlock = () => {
         <img src={musicIcon} alt="Icono Musica" />
         <p className='parrafo'>¿Qué canción te gustaría</p><p className='parrafo'> escuchar en la fiesta?</p>
         <div className="linkBoxMusic">
-          <a href="https://wa.me/+541164654712?text=Confirmar%20asistencia,%20con%20los%20nombres%20de%20quienes%20van%20a%20asistir:" target="_blank" rel="noopener noreferrer">Sugerir canción</a>
+          <a href="https://wa.me/+541164654712?text=Este%20tema%20no%20puede%20faltar..." target="_blank" rel="noopener noreferrer">Sugerir canción</a>
         </div>
       </div>
 
@@ -67,7 +68,18 @@ const SecondBlock = () => {
         </div>
       </div>
 
-      <RegaloModal isOpen={isModalOpen} onRequestClose={closeModal} />
+      <div className="regalosContainer">
+        <h2>Fotos</h2>
+        <img src={camaraIcon} alt="Icono Camara" />
+        <p className='parrafo'>Envía los momentos </p>
+        <p className='parrafo'>más divertidos y que</p>
+        <p className='parrafo'>compartimos juntos...</p>
+
+        <div className="linkBoxMusic">
+          <a href="https://wa.me/+541134055260" target="_blank" rel="noopener noreferrer">Mándalos acá</a>
+        </div>
+      </div>
+
     </div>
   );
 };
