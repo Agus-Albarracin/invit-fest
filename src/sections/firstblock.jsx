@@ -50,6 +50,7 @@ const Firstblock = () => {
       <YouTube videoId="hvqc8lPmCfU" opts={opts} onReady={onReady} />
 
       <div className='content'>
+
         <img className="letras" src={letras} alt="Letras" />
 
         <img className='arrow-two' src={arrow} alt="Flecha" />
