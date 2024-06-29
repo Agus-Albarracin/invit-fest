@@ -63,7 +63,7 @@ const SecondBlock = () => {
           <p className='parrafo'>Por favor confirmar asistencia antes</p><p className='parrafo'> del 20 de Julio.</p>
       <Revealfadei>
           <div className="linkBox">
-            <a href="https://wa.me/+541164654712?text=Confirmo%20la%20asistencia%20con%20los%20nombres%20de%20quienes%20van%20a%20asistir:" target="_blank" rel="noopener noreferrer">Confirmar asistencia</a>
+            <a href="https://wa.me/+541134055260?text=Confirmo%20la%20asistencia%20con%20los%20nombres%20de%20quienes%20van%20a%20asistir:" target="_blank" rel="noopener noreferrer">Confirmar asistencia</a>
           </div>
       </Revealfadei>
     </Revealfade>
@@ -79,10 +79,10 @@ const SecondBlock = () => {
 
           <p className='parrafo'>Es importante que avises</p>
           <p className='parrafo'>sobre tu preferencia del menú</p>
-          <p className='parrafo'>en caso de ser celíaco</p>
+          <p className='parrafo'>en caso de ser celíaco u otro</p>
         </Revealfadei>
         <div className="linkBoxMusic">
-          <a href="https://wa.me/+541134055260" target="_blank" rel="noopener comida">Avisar acá  </a>
+          <a href="https://wa.me/+541134055260?text=Mi%20preferencia%20del%20menú%20es%20..." target="_blank" rel="noopener comida">Avisar acá  </a>
         </div>
       </div>
 
