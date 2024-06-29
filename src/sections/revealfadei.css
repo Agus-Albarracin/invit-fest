@@ -1,0 +1,10 @@
+.revealfadei {
+    opacity: 0;
+    transform: translateX(100px); /* Desliza desde la derecha */
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  
+  .revealfadei.activefadei {
+    opacity: 1;
+    transform: translateX(0);
+  }

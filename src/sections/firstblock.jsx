@@ -7,6 +7,9 @@ import letras from "../assets/letras1.png";
 import espejo from "../assets/espejo.png";
 import frasegif from "../assets/frasegif2.gif";
 import arrow from "../assets/arrow.svg";
+import Reveal from './reveal';
+import Revealfadei from './revealfadei';
+import Revealfade from './revealfade';
 
 const Firstblock = () => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -42,25 +45,42 @@ const Firstblock = () => {
   return (
     
     <div className="section1">
+
       <div className="topButton" onClick={handleTogglePlay}>
+        <Revealfade>
+
         <img src={isPlaying ? pauseIcon : playIcon} alt="Play/Pause" />
         <span>{isPlaying ? 'Pausa' : 'Play music'}</span>
+        </Revealfade>
       </div>
 
       <YouTube videoId="hvqc8lPmCfU" opts={opts} onReady={onReady} />
 
       <div className='content'>
-
+<Reveal>
         <img className="letras" src={letras} alt="Letras" />
+</Reveal>
+<Revealfadei>
 
         <img className='arrow-two' src={arrow} alt="Flecha" />
+</Revealfadei>
 
-        <img className="spejos" src={espejo} alt="Espejo" />
-        <img className='frasegif' src={frasegif} alt="Frase GIF" />
+<Reveal>
+
+         <img className="spejos" src={espejo} alt="Espejo" />
+</Reveal>
+<Reveal>
+         <img className='frasegif' src={frasegif} alt="Frase GIF" />
+
+</Reveal>
+
       </div>
 
       <div>
+        <Revealfadei>
+
         <img className='arrow' src={arrow} alt="Flecha" />
+        </Revealfadei>
       </div>
     </div>
   );

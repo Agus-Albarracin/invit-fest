@@ -1,0 +1,10 @@
+.revealfade {
+    opacity: 0;
+    transform: translateX(-100px); /* Desliza desde la izquierda */
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  
+  .revealfade.activefade {
+    opacity: 1;
+    transform: translateX(0);
+  }
