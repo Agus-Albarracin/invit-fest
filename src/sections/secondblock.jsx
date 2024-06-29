@@ -3,8 +3,10 @@ import partyIcon from "../assets/party.png";
 import locationIcon from "../assets/location.png";
 import confirmIcon from "../assets/confirm.png";
 import musicIcon from "../assets/music.svg";
+import musicaIcon from "../assets/musica.gif"
 import regaloIcon from "../assets/regalo.gif";
 import camaraIcon from "../assets/camara.gif"
+import menuIcon from "../assets/menu.gif"
 import RegaloModal from './modal';
 import Reveal from './reveal';
 import Revealfade from './revealfade'
@@ -67,12 +69,26 @@ const SecondBlock = () => {
     </Revealfade>
     </div>
 
+    <div className="regalosContainer">
+        <h2>Menú</h2>
+        <Reveal>
+
+          <img src={menuIcon} alt="Icono Regalo" />
+        </Reveal>
+        <Revealfadei>
+
+          <p className='parrafo'>Es importante que avises</p>
+          <p className='parrafo'>sobre tu preferencia del menú</p>
+          <p className='parrafo'>en caso de ser celíaco</p>
+        </Revealfadei>
+      </div>
+
 
       <div className="musicContainer">
         <h2>Música</h2>
       <Reveal>
-          <img src={musicIcon} alt="Icono Musica" />
-      </Reveal>
+          <img src={musicaIcon} alt="Icono Musica" />
+      </Reveal> 
         <Revealfade>
             <p className='parrafo'>¿Qué canción te gustaría</p><p className='parrafo'> escuchar en la fiesta?</p>
         </Revealfade>
