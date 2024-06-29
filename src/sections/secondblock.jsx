@@ -81,6 +81,9 @@ const SecondBlock = () => {
           <p className='parrafo'>sobre tu preferencia del menú</p>
           <p className='parrafo'>en caso de ser celíaco</p>
         </Revealfadei>
+        <div className="linkBoxMusic">
+          <a href="https://wa.me/+541134055260" target="_blank" rel="noopener comida">Avisar acá  </a>
+        </div>
       </div>
 
 
@@ -94,7 +97,7 @@ const SecondBlock = () => {
         </Revealfade>
 
         <div className="linkBoxMusic">
-          <a href="https://wa.me/+541164654712?text=Este%20tema%20no%20puede%20faltar..." target="_blank" rel="noopener noreferrer">Sugerir canción</a>
+          <a href="https://wa.me/+541164654712?text=Este%20tema%20no%20puede%20faltar..." target="_blank" rel="noopener musica">Sugerir canción</a>
         </div>
       </div>
 
@@ -130,7 +133,7 @@ const SecondBlock = () => {
         </Revealfade>
 
         <div className="linkBoxMusic">
-          <a href="https://wa.me/+541134055260" target="_blank" rel="noopener noreferrer">Mándalos acá</a>
+          <a href="https://wa.me/+541134055260" target="_blank" rel="noopener camara">Mándalos acá</a>
         </div>
       </div>
 
