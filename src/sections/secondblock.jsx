@@ -82,7 +82,7 @@ const SecondBlock = () => {
           <p className='parrafo'>en caso de ser celíaco u otro</p>
         </Revealfadei>
         <div className="linkBoxMusic">
-          <a href="https://wa.me/+541134055260?text=Mi%20preferencia%20del%20menú%20es%20..." target="_blank" rel="noopener comida">Avisar acá  </a>
+          <a href="https://wa.me/+541134055260?text=Mi%20preferencia%20del%20menú%20es...%20porque%20soy..." target="_blank" rel="noopener comida">Avisar acá  </a>
         </div>
       </div>
 
