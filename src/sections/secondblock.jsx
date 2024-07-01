@@ -127,9 +127,9 @@ const SecondBlock = () => {
         </Reveal>
         <Revealfade>
 
-          <p className='parrafo'>Envía los momentos post fiesta</p>
+          <p className='parrafo'>Envía los momentos </p>
           <p className='parrafo'>más divertidos y que</p>
-          <p className='parrafo'>compartimos juntos...</p>
+          <p className='parrafo'>compartimos juntos de la fiesta...</p>
         </Revealfade>
 
         <div className="linkBoxMusic">
