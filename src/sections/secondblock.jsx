@@ -136,7 +136,7 @@ const SecondBlock = () => {
           <a href="https://wa.me/+541134055260" target="_blank" rel="noopener camara">Mándalos acá</a>
         </div>
       </div>
-
+      <RegaloModal isOpen={isModalOpen} onRequestClose={closeModal} />
     </div>
   );
 };
