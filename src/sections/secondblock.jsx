@@ -60,7 +60,7 @@ const SecondBlock = () => {
     <Revealfade>
           <img src={confirmIcon} alt="Icono Confirmación" />
           <h2>Confirmación</h2>
-          <p className='parrafo'>Por favor confirmar asistencia antes</p><p className='parrafo'> del 20 de Julio.</p>
+          <p className='parrafo'>Por favor confirmar asistencia antes</p><p className='parrafo'> del 1 de Agosto.</p>
       <Revealfadei>
           <div className="linkBox">
             <a href="https://wa.me/+541134055260?text=Confirmo%20la%20asistencia%20con%20los%20nombres%20de%20quienes%20van%20a%20asistir:" target="_blank" rel="noopener noreferrer">Confirmar asistencia</a>
