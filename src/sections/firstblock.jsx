@@ -10,10 +10,14 @@ import arrow from "../assets/arrow.svg";
 import Reveal from './reveal';
 import Revealfadei from './revealfadei';
 import Revealfade from './revealfade';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const Firstblock = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const playerRef = useRef(null);
+  
 
   const opts = {
     height: '0',
@@ -33,9 +37,11 @@ const Firstblock = () => {
 
   const handleTogglePlay = () => {
     if (playerRef.current) {
+      
       if (isPlaying) {
         playerRef.current.pauseVideo();
       } else {
+        toast("Cargando música", { autoClose: 1500});
         playerRef.current.playVideo();
       }
       setIsPlaying(!isPlaying);
@@ -45,6 +51,7 @@ const Firstblock = () => {
   return (
     
     <div className="section1">
+<ToastContainer position="top-center" />
 
       <div className="topButton" onClick={handleTogglePlay}>
         <Revealfade>

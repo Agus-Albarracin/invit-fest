@@ -65,7 +65,7 @@
   background-position: center;
   background-repeat: no-repeat; /* Evita que la imagen se repita */
   padding: 40px; /* Padding para hacer la caja más visible */
-  margin: 20px 50px; /* Margen externo para separar las cajas */
+  margin: 20px 250px; /* Margen externo para separar las cajas */
   width: 80%; /* Ajusta el ancho de la caja */
   max-width: 190px; /* Ancho máximo de la caja */
   display: flex;
@@ -143,4 +143,11 @@
 .btn-regalo {
   background-color: #b8a79100;
   color: #5F5F5F;
+}
+
+@media (max-width: 768px) {
+  .linkBox {
+    margin: 20px 50px; /* Margen externo para separar las cajas */
+  }
+
 }
