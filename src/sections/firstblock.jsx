@@ -17,7 +17,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Firstblock = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const playerRef = useRef(null);
-  
+  const [cont, setCont] = useState(0)
 
   const opts = {
     height: '0',
@@ -41,8 +41,11 @@ const Firstblock = () => {
       if (isPlaying) {
         playerRef.current.pauseVideo();
       } else {
-        toast("Cargando música", { autoClose: 1500});
-        playerRef.current.playVideo();
+          playerRef.current.playVideo();
+          if(cont === 0){
+            toast("Cargando música", { autoClose: 1500});
+            setCont(cont + 1);
+          }
       }
       setIsPlaying(!isPlaying);
     }
