@@ -8,7 +8,7 @@ Modal.setAppElement('#root'); // This is important for screen readers
 
 const RegaloModal = ({ isOpen, onRequestClose }) => {
   const cvu = "0000003100004365130318";
-  const alias = "juli.ro.mp";
+  const alias = "juja.ro";
 
   const copyToClipboard = (text, label) => {
     navigator.clipboard.writeText(text).then(() => {
